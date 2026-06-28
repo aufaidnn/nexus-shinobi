@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    background:#E8D8B8;
+    font-family:'Poppins',sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.register-card{
+    width:430px;
+    background:#F6ECD5;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.register-card h1{
+    font-family:'Cinzel';
+    text-align:center;
+    color:#5A3E2B;
+}
+
+.register-card p{
+    text-align:center;
+    color:#666;
+    margin-bottom:25px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input,
+select{
+    padding:12px;
+    border:2px solid #C8B08D;
+    border-radius:8px;
+    font-size:15px;
+}
+
+.upload{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    font-size:14px;
+    color:#555;
+}
+
+button{
+    padding:14px;
+    border:none;
+    background:#8E2A2A;
+    color:white;
+    font-size:16px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#A93636;
+}
+
+.login-link{
+    margin-top:20px;
+    text-align:center;
+}
+
+.login-link a{
+    text-decoration:none;
+    font-weight:bold;
+    color:#8E2A2A;
+}

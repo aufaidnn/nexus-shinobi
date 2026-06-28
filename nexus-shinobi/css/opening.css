@@ -1,0 +1,50 @@
+.opening{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:#F5E6C8;
+}
+
+.scroll{
+    width:230px;
+    cursor:pointer;
+    transition:1s;
+}
+
+.scroll:hover{
+    transform:scale(1.05);
+}
+
+.scroll.open{
+    transform:scale(1.25) rotate(-2deg);
+}
+
+#title,
+#subtitle,
+#startBtn{
+    opacity:0;
+    transform:translateY(20px);
+    transition:.8s;
+}
+
+#title{
+    font-family:'Cinzel', serif;
+    font-size:48px;
+    letter-spacing:3px;
+}
+
+#subtitle{
+font-family:'Cormorant Garamond', serif;
+font-size:22px;
+}
+
+#startBtn{
+    margin-top:30px;
+}
+
+.show{
+    opacity:1 !important;
+    transform:translateY(0) !important;
+}
